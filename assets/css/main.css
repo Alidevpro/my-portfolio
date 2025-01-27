@@ -523,6 +523,7 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  text-align: center;
 }
 
 .section-title h2:after {
@@ -532,12 +533,13 @@ section,
   width: 50px;
   height: 3px;
   background: var(--accent-color);
-  left: 0;
+  left: 47%;
   bottom: 0;
 }
 
 .section-title p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -625,6 +627,7 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
+  text-align: center;
 }
 
 .about .content ul {
@@ -663,6 +666,7 @@ section,
   font-size: 44px;
   float: left;
   line-height: 0;
+  padding-left: 20px;
 }
 
 .stats .stats-item .purecounter {
@@ -671,7 +675,8 @@ section,
   line-height: 40px;
   display: block;
   font-weight: 700;
-  margin-left: 60px;
+  /* margin-left: 60px; */
+  text-align: center;
 }
 
 .stats .stats-item p {
@@ -680,6 +685,7 @@ section,
   margin: 0 0 0 60px;
   font-family: var(--heading-font);
   font-size: 14px;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -819,6 +825,13 @@ section,
     font-size: 14px;
     margin: 0 5px;
   }
+/* .bi{
+  
+} */
+.pp{
+  /* position: relative;
+  left: 30px; */
+}
 }
 
 .portfolio .portfolio-content {
@@ -1344,7 +1357,9 @@ section,
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-desc {
       font-size:1rem;
-      text-align: left;
+      padding: 0px 15px;
+      text-align: justify;
+
       
   }
 }
@@ -1396,6 +1411,7 @@ section,
   margin-bottom: 3.5rem;
   position: relative;
   color: black;
+  text-align: center;
 }
 
 .heading-sec__main--lt {
@@ -1414,7 +1430,7 @@ section,
   /* top: calc(100% + 1.5rem); */
   height: 3px;
   width: 50px;
-  left: 10px;
+  left: 47%;
   top: 55px;
   background: #149DDD;
   display: block;
